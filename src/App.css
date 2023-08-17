@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.color {
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shadow {
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hip {
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box1 {
+  box-shadow: -11px 0px 19px 0px rgba(23, 23, 23, 0.3),
+    0px 13px 20px 0px rgba(23, 23, 23, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hipo {
+  box-shadow: 0px 8.871848106384277px 40.5570182800293px -2.534813642501831px rgba(24, 39, 75, 0.12),
+    0px 5.069627285003662px 13.941474914550781px -3.802220582962036px rgba(24, 39, 75, 0.12);
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("./Component/Aeonik-/Aeonik-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MADE Mellow PERSONAL USE";
+  src: url("./Component/MADEMellowPERSONALUSE-Medium.otf") format("truetype");
 }
