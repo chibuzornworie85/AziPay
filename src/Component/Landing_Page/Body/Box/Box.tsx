@@ -1,5 +1,6 @@
 import { FC } from "react";
 import "../../../../App.css";
+import { Link } from "react-router-dom";
 
 export const Box: FC = () => {
   return (
@@ -86,10 +87,10 @@ export const Box: FC = () => {
           </div>
           <div style={{ fontFamily: "Aeonik" }} className="flex gap-[24px]">
             <button className="text-[#11453B] text-[14px] font-[500] leading-[20px] tracking-[0.1px] w-[168px] py-[10px] px-[30px] rounded-[24px] border-[1px] border-[#11453B]">
-              Log in
+              <Link to="/dashbord">Log in</Link>
             </button>
             <button className="shadow text-[#fff] text-[14px] font-[500] leading-[20px] tracking-[0.1px] rounded-[24px] bg-[#11453B] w-[168px] py-[10px] px-[30px]">
-              Register
+              <Link to="/dashbord">Register</Link>
             </button>
           </div>
         </nav>

@@ -24,6 +24,26 @@
     0px 5.069627285003662px 13.941474914550781px -3.802220582962036px rgba(24, 39, 75, 0.12);
 }
 
+.dash {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.play {
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+}
+
+.next {
+  box-shadow: 0px 6px 12px 0px rgba(170, 170, 170, 0.11);
+}
+
+.last {
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+}
+
+.sha {
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+}
+
 @font-face {
   font-family: "Aeonik";
   src: url("./Component/Aeonik-/Aeonik-Light.otf") format("truetype");

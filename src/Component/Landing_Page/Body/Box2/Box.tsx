@@ -72,7 +72,7 @@ export const Box2: FC = () => {
                 seconds!
               </p>
             </div>
-            <div className="box1 w-[552px] p-[64px] flex flex-col gap-[8px] rounded-[16px] bg-[#11453B] hover:right-0 cursor-pointer relative right-[100px]">
+            <div className="box1 w-[552px] p-[64px] flex flex-col gap-[8px] rounded-[16px] bg-[#11453B] cursor-pointer relative right-[100px]">
               <h1
                 style={{ fontFamily: "Aeonik" }}
                 className="font-[700] text-[20px] leading-[36px] text-[#fff]"
